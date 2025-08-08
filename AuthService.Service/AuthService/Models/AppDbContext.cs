@@ -22,8 +22,8 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<User>().Property(u => u.Role).IsRequired().HasMaxLength(50);
 
         modelBuilder.Entity<User>().HasData(
-            new User { Id = 1, Username = "admin", PasswordHash = PasswordHashing.HashPassword("SecurePass123"), Role = "Admin" },
-            new User { Id = 2, Username = "user", PasswordHash = PasswordHashing.HashPassword("Password1"), Role = "User" }
+            new User { Id = 1, Username = "admin", PasswordHash = PasswordHashing.HashPassword("Password1"), Role = "Admin" },
+            new User { Id = 2, Username = "user", PasswordHash = PasswordHashing.HashPassword("Password2"), Role = "User" }
         );
     }
 }

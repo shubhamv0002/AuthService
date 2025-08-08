@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36127.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "AuthService\AuthService.csproj", "{61DC7B32-CA93-474A-BCF7-7203EC858617}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Service", "AuthService\AuthService.Service.csproj", "{61DC7B32-CA93-474A-BCF7-7203EC858617}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
